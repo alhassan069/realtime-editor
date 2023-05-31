@@ -27,6 +27,8 @@ io.on('disconnect', (event) => {
 
 
 http.listen(port, () => {
-    console.log(`server listening on port ${port}`)
+    console.log(`server listening on port ${port}`);
+    console.log(`Preview at http://localhost:${port}`)
+    
 });
 
